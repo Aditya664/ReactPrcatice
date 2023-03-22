@@ -6,3 +6,4 @@ export { default as VideoDetail } from './VideoDetail';
 export { default as SearchBar } from './SearcBar';
 export { default as Home } from './home';
 export { default as Props } from './props';
+export { default as Message } from './Message';
