@@ -7,9 +7,12 @@ const App = () => (
   <BrowserRouter>
     <Box sx={{ backgroundColor: '#fff' }}>
       <Navbar />
-      <Home />
+      <Home name='Aditya' />
       <Props name='Aditya'>
         <h4>JSE</h4>
+      </Props>
+      <Props name='Rumin'>
+        <button>Click me!!!!!</button>
       </Props>
       <Routes>
         <Route path="/" exact element={<Feed />} />
