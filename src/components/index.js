@@ -7,3 +7,4 @@ export { default as SearchBar } from './SearcBar';
 export { default as Home } from './home';
 export { default as Props } from './props';
 export { default as Message } from './Message';
+export { default as Counter } from './Counter';
