@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
-import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed, Home, Props, Message, Counter, Distruct } from './components';
+import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed, Home, Props, Message, Counter, Distruct, Welcome } from './components';
 
 const App = () => (
   <BrowserRouter>
@@ -17,6 +17,7 @@ const App = () => (
       <Message />
       <Counter />
       <Distruct name='Aditya' heroname='Coder' />
+      <Welcome name='Aditya' heroname='Coder' />
       <Routes>
         <Route path="/" exact element={<Feed />} />
         <Route path='/video/:id' element={<VideoDetail />} />
