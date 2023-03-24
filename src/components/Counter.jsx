@@ -3,14 +3,11 @@ import React, { Component } from "react";
 class Counter extends Component {
     constructor(props) {
         super(props)
-
         this.state = {
             count: 0
         }
     }
-
     incrementFive() {
-
         this.increment();
         this.increment();
         this.increment();
@@ -22,6 +19,7 @@ class Counter extends Component {
             count: prev.count + 1
         }))
     }
+
     render() {
         return (
             <div>
