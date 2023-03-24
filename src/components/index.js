@@ -10,3 +10,5 @@ export { default as Message } from './Message';
 export { default as Counter } from './Counter';
 export { default as Distruct } from './Distruct';
 export { default as Welcome } from './DistructClass';
+export { default as FunctionClick } from './Event';
+export { default as ClassClick } from './ClassClick'
