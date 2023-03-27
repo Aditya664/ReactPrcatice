@@ -7,7 +7,17 @@ class Person {
     }
 }
 
+class Teacher extends Person {
+    constructor(name, degree) {
+        super(name);
+        this.degree = degree;
+    }
+    teach() {
+        console.log('Teach');
+    }
+}
 
-const person = new Person('Adi');
-person.walk();
-person.name;
+const teacher = new Teacher('Adi', 'MCA');
+teacher.walk();
+teacher.teach();
+teacher.name = 'Rupesh';

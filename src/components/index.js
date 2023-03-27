@@ -12,3 +12,4 @@ export { default as Distruct } from './Distruct';
 export { default as Welcome } from './DistructClass';
 export { default as FunctionClick } from './Event';
 export { default as ClassClick } from './ClassClick'
+export { default as NewProj } from './NewProj'
