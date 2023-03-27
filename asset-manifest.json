@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ReactPrcatice/static/css/main.6aea240e.css",
-    "main.js": "/ReactPrcatice/static/js/main.0a3c0376.js",
+    "main.js": "/ReactPrcatice/static/js/main.d7c8beb2.js",
     "index.html": "/ReactPrcatice/index.html",
     "main.6aea240e.css.map": "/ReactPrcatice/static/css/main.6aea240e.css.map",
-    "main.0a3c0376.js.map": "/ReactPrcatice/static/js/main.0a3c0376.js.map"
+    "main.d7c8beb2.js.map": "/ReactPrcatice/static/js/main.d7c8beb2.js.map"
   },
   "entrypoints": [
     "static/css/main.6aea240e.css",
-    "static/js/main.0a3c0376.js"
+    "static/js/main.d7c8beb2.js"
   ]
 }
