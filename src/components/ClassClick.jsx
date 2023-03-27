@@ -2,7 +2,6 @@ import { Component } from "react";
 
 class ClassClick extends Component {
     // constructor() { }
-
     classClickHandler() {
         console.log('Click to the button')
     }
@@ -14,8 +13,6 @@ class ClassClick extends Component {
             </div>
         )
     }
-
-
 }
 
 export default ClassClick;
