@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactPrcatice/static/css/main.6aea240e.css",
-    "main.js": "/ReactPrcatice/static/js/main.7b4e7f00.js",
+    "main.css": "/ReactPrcatice/static/css/main.aba12b29.css",
+    "main.js": "/ReactPrcatice/static/js/main.676b5334.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/ReactPrcatice/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/ReactPrcatice/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/ReactPrcatice/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/ReactPrcatice/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/ReactPrcatice/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/ReactPrcatice/index.html",
-    "main.6aea240e.css.map": "/ReactPrcatice/static/css/main.6aea240e.css.map",
-    "main.7b4e7f00.js.map": "/ReactPrcatice/static/js/main.7b4e7f00.js.map"
+    "main.aba12b29.css.map": "/ReactPrcatice/static/css/main.aba12b29.css.map",
+    "main.676b5334.js.map": "/ReactPrcatice/static/js/main.676b5334.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aea240e.css",
-    "static/js/main.7b4e7f00.js"
+    "static/css/main.aba12b29.css",
+    "static/js/main.676b5334.js"
   ]
 }
