@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 class NewProj extends Component {
+
+    constructor() {
+        super();
+        console.log('Log', this)
+    }
+
     state = {
         count: 0,
         tags: ['tag1', 'tag2', 'tag3']
@@ -38,6 +44,7 @@ class NewProj extends Component {
         this.setState(prev => ({
             count: prev.count + 1
         }))
+        console.log(this.state.count)
     }
 
     decrement() {
