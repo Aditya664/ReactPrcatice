@@ -26,7 +26,7 @@ class NewProj extends Component {
     renderTags() {
         if (this.state.tags.length === 0) return <p>There are no tags!</p>;
         return <ul>
-            {this.state.tags.map(tag => <li className={this.getBadgeClasses()} key={tag}>{tag}</li>)}
+            {this.state.tags.map(tag => <li onClick={() => this.tagClicked(tag)} className={this.getBadgeClasses()} key={tag}>{tag}</li>)}
         </ul>
     }
     getBadgeClasses() {
@@ -40,6 +40,9 @@ class NewProj extends Component {
         return count === 0 ? 'Zero' : count;
     }
 
+    tagClicked(tagName) {
+        console.log(tagName)
+    }
     increment() {
         this.setState(prev => ({
             count: prev.count + 1
