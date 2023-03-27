@@ -9,6 +9,9 @@ const Navbar = () => (
     <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
       <img src={logo} alt="logo" height={45} />
     </Link>
+    <Link to="/video/3" style={{ display: 'flex', color: 'white', alignItems: 'center' }}>
+      <p>Video</p>
+    </Link>
     <SearcBar />
   </Stack>
 )

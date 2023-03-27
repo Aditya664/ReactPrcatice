@@ -10,13 +10,19 @@ class NewProj extends Component {
                 <span className={this.getBadgeClasses()}>{this.formatCounter()}</span>
                 <button onClick={() => this.increment()} className='btn btn-secondary btn-sm m-2'>Increment</button>
                 <button onClick={() => this.decrement()} className='btn btn-danger btn-sm m-2'>Decrement</button>
-                <ul>
-                    {this.state.tags.map(tag => <li className={this.getBadgeClasses()} key={tag}>{tag}</li>)}
-                </ul>
+
+                {this.renderTags()}
             </React.Fragment>
         );
     }
 
+
+    renderTags() {
+        if (this.state.tags.length === 0) return <p>There are no tags!</p>;
+        return <ul>
+            {this.state.tags.map(tag => <li className={this.getBadgeClasses()} key={tag}>{tag}</li>)}
+        </ul>
+    }
     getBadgeClasses() {
         let classes = 'badge m-2 badge-';
         classes += (this.state.count === 0) ? 'warning' : 'primary';
